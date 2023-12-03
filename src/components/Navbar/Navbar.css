@@ -1,0 +1,176 @@
+/* Navbar.css */
+
+
+body {
+  margin: 0;
+  background-color: #FDF2EC;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #FDF2EC;
+  
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+    margin: 0;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  
+  
+}
+
+.nav-links a {
+  color:black;
+  text-decoration: none;
+  
+  
+  
+  margin-left: 20px;
+}
+
+.mobile-menu-icon {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+@media (max-width: 600px ) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  text-align: center;
+  
+   height: auto;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    
+    
+    
+    background-color: white;
+    padding: 10px;
+
+  }
+
+  .nav-links.open {
+    
+    display: flex;
+   width: 100%;
+    
+  }
+
+  .nav-links a {
+    margin: 5px 0;
+    
+    
+    
+  }
+
+  .mobile-menu-icon {
+    
+    display: block;
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+  background-color: #FDF2EC;
+  
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+    margin: 0;
+}
+
+nav a {
+  color: #301e1e;
+  text-decoration: none;
+  padding: 14px 16px;
+  
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  color:  blue;
+  cursor: pointer;
+}
+
+.logo {
+  margin-right: auto;
+  order: -1;
+}
+.logo img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+.buy-button {
+  background-color: #FFFFFF;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 16px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.buy-button:hover {
+  background: rgb(229, 231, 219);
+  cursor: pointer;
+  border: 1px solid var(--orange);
+
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+      flex-direction: column;
+      text-align: center;
+      
+  }
+
+  .buy-button {
+      color: #FFFFFF;
+      
+      height: 100%;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: none;
+      transform: none;
+      transform-origin: 50% 50% 0px;
+      opacity: 1;
+      margin-right: 0;
+      padding: 16px 20px;
+      background: rgb(130, 71, 255);
+  }
+}
+
+
+
+
+
+
+

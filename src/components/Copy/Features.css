@@ -1,0 +1,41 @@
+
+
+.M{
+  
+ 
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+  
+    
+  }
+  
+.N{
+    text-align: center;
+    --framer-text-color: var(--token-d23dd5a9-b486-4fa3-8394-2cd7943f28da, rgb(7, 6, 27));
+    font-size: 45px;
+  }
+  .O{
+   
+    font-size: 45px;
+    color: rgb(254, 129, 98);
+  }
+  
+.T{
+    margin-top: 130PX;
+    text-align: center;
+    
+   }
+   
+   .R{
+    
+     color:  #8247FF;
+   
+    font-size: 20px;
+    background-color: white;
+    
+     border-radius: 8px;
+   }
